@@ -37,7 +37,7 @@ public class prescricao implements Serializable{
     }
 
     public void setConsulta(Consulta consulta){
-        return consulta
+        return consulta;
     }
 
     public void setConsulta(Consulta consulta){
@@ -92,7 +92,7 @@ public class prescricao implements Serializable{
     public int hashCode(){
         return Objects.hash(id);
     }
-    
+
     @Override
     public String toString(){
         return "Prescricao{" +
